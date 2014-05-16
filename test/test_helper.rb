@@ -4,7 +4,7 @@ require 'aws/s3'
 require File.dirname(__FILE__) + '/mocks/fake_response'
 require File.dirname(__FILE__) + '/fixtures'
 begin
-  require_library_or_gem 'ruby-debug'
+  require_library_or_gem 'debugger'
 rescue LoadError
 end
 require_library_or_gem 'flexmock'

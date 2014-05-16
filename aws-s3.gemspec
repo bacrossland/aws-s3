@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'aws/s3/version'
 
 Gem::Specification.new do |s|
-  s.name			  = %q{aws-S3}
+  s.name			  = %q{aws-s3}
   s.authors			  = ["Marcel Molina Jr."]
   s.summary			  = %q{Client library for Amazon's Simple Storage Service's REST API}
   s.description		  = %q{Client library for Amazon's Simple Storage Service's REST API}
